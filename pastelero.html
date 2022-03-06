@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario pastelero</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+
+    <!-- CSS Estilos -->
+    <link rel="stylesheet" href="estilos_form.css">
+
+    <body>
+
+        <form action="">
+            <h1>Formulario del cliente</h1>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+            <label for="telefono1">Telefono 1</label>
+            <input type="tel" name="telefono1" id="telefono1" placeholder="Telefono 1">
+
+            <label for="telefono2">Telefono 2</label>
+            <input type="tel" name="telefono2" id="telefono2" placeholder="Telefono 2">
+
+            <label for="correo">Correo electónico</label>
+            <input type="email" name="correo" id="correo" placeholder="Correo">
+
+            <p>
+
+                Sabor del bizcocho:<br>
+
+                <input type="checkbox" name="bizcocho" value="chocolate"> Chocolate<br>
+
+                <input type="checkbox" name="bizcocho" value="vainilla"> Vainilla<br>
+
+                <input type="checkbox" name="bizcocho" value="fresa"> Fresa <br>
+
+                <input type="checkbox" name="bizcocho" value="zanahoria"> Zanahoria <br>
+
+                <input type="checkbox" name="bizcocho" value="doble_chocolate"> Chocolate doble <br>
+
+            </p>
+
+            <p>
+
+                Decoración:<br>
+
+                <input type="checkbox" name="decoracion" value="fondant"> Fondant<br>
+
+                <input type="checkbox" name="decoracion" value="crema"> Crema <br>
+
+                <input type="checkbox" name="decoracion" value="flores"> Flores <br>
+
+                <input type="checkbox" name="decoracion" value="frutas"> Frutas <br>
+
+            </p>
+
+            <label for="descpcion">Descripción del pastel</label>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+
+            <label for="reeferencia">Imagen de referncia</label>
+            <input type="image" src="img/amor.png" name="referencia" id="referencia" class="referencia">
+        </form>
+
+    </body>
+
+</html>
