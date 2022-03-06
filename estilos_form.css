@@ -29,7 +29,8 @@ label {
     /* Separando espacios internos */
 }
 
-button {
+button,
+.reset {
     margin: 10px;
     padding: 10px;
     background-color: #f392a0;
