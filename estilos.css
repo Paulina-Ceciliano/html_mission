@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #f392a0 50%, rgba(59, 35, 20, 0.795) 50%);
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+    font-size: 20px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.836);
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 40px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.836);
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.sabor,
+.decoracion {
+    color: #fff;
+    margin: 7px 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.836);
+    font-family: 'Comfortaa', cursive;
+    margin-top: 0;
+}
+
+.button {
+    margin: 50px;
+    padding: 100px;
+}
+
+
+/* Estilos de Materialize */
+
+.carousel {
+    min-width: 500px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px;
+}
