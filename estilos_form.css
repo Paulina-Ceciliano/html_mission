@@ -1,0 +1,60 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #f392a0 50%, rgba(59, 35, 20, 0.795) 50%);
+    font-family: 'Comfortaa', cursive;
+}
+
+form {
+    margin: 0 auto;
+    /* Centramos el formulario */
+    width: 300px;
+    /* Sin ancho no podemos centrar el formulario */
+    background-color: white;
+    /* Color blanco para el formulario */
+    padding: 2px;
+    /* separamos los bordes del form del resto de elementos */
+    border-radius: 10px;
+    /* Redondeamos los bordes del form */
+}
+
+h1 {
+    text-align: center;
+    color: rgba(59, 35, 20, 0.795);
+}
+
+label {
+    display: block;
+    /* Ahora los inputs quedan debajo de los label */
+    padding: 5px;
+    /* Separando espacios internos */
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f392a0;
+    border-radius: 10px;
+}
+
+
+/*  NAVBAR */
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.enlace {
+    background-color: #f392a0;
+    color: white;
+}

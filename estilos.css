@@ -18,10 +18,28 @@ p {
     text-align: center;
 }
 
+.foto {
+    object-fit: cover;
+    width: 20%;
+    height: 20%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px;
+}
+
 .titulo {
     font-size: 40px;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.836);
     font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.subtitulo {
+    font-size: 30px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.836);
+    font-family: 'Comfortaa';
     margin-bottom: 20px;
     color: #fff;
 }
@@ -35,6 +53,15 @@ p {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.836);
     font-family: 'Comfortaa', cursive;
     margin-top: 0;
+}
+
+.precio {
+    font-family: 'Sansita Swashed';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    color: #f392a0;
+    font-size: 40px;
 }
 
 .button {
@@ -67,5 +94,5 @@ p {
     top: 0;
     left: 0;
     z-index: -1;
-    border-radius: 50px;
+    border-radius: 5px;
 }

@@ -7,36 +7,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
 
     <!-- CSS Estilos -->
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos_form.css">
 
-    <!-- Materialize.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-</head>
-
-<body>
-    <nav class="black">
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo right">Cake Station <img src="img/logo.svg " height="50 "></a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="index.html">Home</a></li>
-            </ul>
+    <body>
+        <div class="topnav">
+            <a class="enlace" href="index.html">Inicio</a>
         </div>
-    </nav>
 
+        <form action="">
+            <h1>Formulario de pedido</h1>
 
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
 
+            <label for="telefono1">Telefono 1</label>
+            <input type="tel" name="telefono1" id="telefono1" placeholder="Introduzca un numero de telefono">
 
+            <label for="telefono2">Telefono 2</label>
+            <input type="tel" name="telefono2" id="telefono2" placeholder="Introduzca otro numero de telefono">
 
+            <label for="correo">Correo electónico</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingrese su correo">
 
+            <p>
 
+                Sabor del bizcocho (Puedes seleccionar 2):<br>
 
+                <input type="checkbox" name="bizcocho" value="chocolate"> Chocolate<br>
 
-    <!-- Materialize.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</body>
+                <input type="checkbox" name="bizcocho" value="vainilla"> Vainilla<br>
+
+                <input type="checkbox" name="bizcocho" value="fresa"> Fresa <br>
+
+                <input type="checkbox" name="bizcocho" value="zanahoria"> Zanahoria <br>
+
+                <input type="checkbox" name="bizcocho" value="doble_chocolate"> Chocolate doble <br>
+
+            </p>
+
+            <p>
+
+                Decoración (Puedes seleccionar 2):<br>
+
+                <input type="checkbox" name="decoracion" value="fondant"> Fondant<br>
+
+                <input type="checkbox" name="decoracion" value="crema"> Crema <br>
+
+                <input type="checkbox" name="decoracion" value="flores"> Flores <br>
+
+                <input type="checkbox" name="decoracion" value="frutas"> Frutas <br>
+
+            </p>
+
+            <label for="descpcion">Descripción del pastel</label>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+
+            <label for="reeferencia">Puede agregar una imagen de referncia</label>
+            <input type="file" name="referencia" id="referencia">
+
+            <center>
+                <button type="submit">Enviar</button>
+            </center>
+
+        </form>
+
+    </body>
+
+    <footer>
+        <hr color="black">
+        <p> Dirección: Fuente de Tritones 7-A, Lomas de Tecamachalco, 53950 Naucalpan de Juárez, Méx. Teléfono:55556666 Horarios: Martes a Domingo de 9:00 hrs a 21:00 hrs</p>
+
+    </footer>
 
 </html>
